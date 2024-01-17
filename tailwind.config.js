@@ -1,0 +1,27 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        "primary-purple": "hsl(259, 100%, 65%)",
+        "primary-light-red": "hsl(0, 100%, 67%)",
+        "neutral-white": "hsl(0, 0%, 100%)",
+        "neutral-off-white": "hsl(0, 0%, 94%)",
+        "neutral-light-grey": "hsl(0, 0%, 86%)",
+        "neutral-smokey-grey": "hsl(0, 1%, 44%)",
+        "neutral-off-black": "hsl(0, 0%, 8%)",
+      },
+      
+    fontFamily:{ 
+      "Poppins":"Poppins, sans-serif",
+    },
+    borderRadius: {
+      '8xl': '8rem', 
+    }
+}
+    
+  },
+  plugins: [],
+}
+
